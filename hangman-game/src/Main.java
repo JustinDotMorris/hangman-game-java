@@ -1,5 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Outputs output = new Outputs();
+            output.startGame();
+
+        Inputs input = new Inputs();
+            input.getUserInput();
+
+        Words word = new Words();
+            word.getWord();
+
     }
+
+
 }
