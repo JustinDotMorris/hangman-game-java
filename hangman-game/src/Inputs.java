@@ -8,7 +8,6 @@ public class Inputs {
         Scanner scanner = new Scanner(System.in);
         userString = scanner.next();
         guessesArrList.add(userString);
-        System.out.println(guessesArrList);
-        System.out.println("You Typed:" + userString);
+        System.out.println("-------------------------------------------------------------------------------");
     }
 }
