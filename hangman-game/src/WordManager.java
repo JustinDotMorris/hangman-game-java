@@ -2,7 +2,7 @@ public class WordManager {
     //-----------------Variables-----------------------
     public String chosenWord = "";
     public String linedWord = "";
-    final String[] words = new String[]{"the", "quick", "brown", "foxes", "jump", "over", "lazy", "dogs"};
+    final String[] words = new String[]{"thee", "quickk", "brownn", "foxess", "jumpp", "overr", "lazyy", "dogss"};
 
     //---------------------Getters & Setters------------------
 
@@ -15,11 +15,11 @@ public class WordManager {
         //get random number from the length of the array
         int randomArrayNumber = (int)(Math.random() *wordArrayLength);
         //display the number that the index correlates to
-        String chosenWord = words[randomArrayNumber];
-        System.out.println(chosenWord);
+        chosenWord = words[randomArrayNumber];
+        System.out.println("chosenWord = "+chosenWord);
         //---------------------
         int chosenWordLength = chosenWord.length();
-        String linedWord = "_".repeat(chosenWordLength);
-        System.out.println(linedWord);
+        linedWord = "_".repeat(chosenWordLength);
+        System.out.println("linedWord = "+linedWord);
     }
 }
