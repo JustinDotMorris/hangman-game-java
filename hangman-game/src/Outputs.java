@@ -32,16 +32,4 @@ public class Outputs {
                         "|  `----.|  `--'  | .----)   |      |  |         /  _____  \\     |  `----.|  | |  |     |  |____ \n" +
                         "|_______| \\______/  |_______/       |__|        /__/     \\__\\    |_______||__| |__|     |_______|");
         }
-
-//        public void checkWord(String currentWord,String guessedLetters){
-//                System.out.println("current word is="+currentWord);
-//                System.out.println("guessed letters are="+guessedLetters);
-////                if (currentWord.contains(guessedLetters)){
-////                System.out.println("The word was");}
-//        }
-
-
-
-
-
 }
